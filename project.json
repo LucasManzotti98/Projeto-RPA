@@ -1,0 +1,37 @@
+{
+  "name": "RoitLM",
+  "description": "Descrição Projeto consiste em interagir com a página do IBOPE(https://www.kantaribopemedia.com/audiencia-do-horario-nobre-15-mercados-06-12-a-12-12-2021/) consumindo a primeira tabela da página e inserindo em um planilha excel(provaxlsx.xlsx)📗. No fim da passagem para o arquivo excel, é processado uns script em python🐍 utilizando a lib pandas para alterar os registros.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.7.2]",
+    "UiPath.Mail.Activities": "[1.7.2]",
+    "UiPath.Python.Activities": "[1.4.1]",
+    "UiPath.System.Activities": "[19.10.1]",
+    "UiPath.UIAutomation.Activities": "[19.11.3]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.10.5.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfos": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
